@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
 * {
   box-sizing: border-box;
 }
 
+:root {
+  /* Primary */
+  --orange: hsl(25, 97%, 53%);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --lightGrey: hsl(217, 12%, 63%);
+  --mediumGrey: hsl(216, 12%, 54%);
+  --darkBlue: hsl(213, 19%, 18%);
+  --veryDarkBlue: hsl(216, 12%, 8%);
+}
+
 body {
   display: flex;
+  font-family: 'Overpass', Arial, Helvetica, sans-serif;
   min-height: 100vh;
   align-items: center;
   justify-content: center;
