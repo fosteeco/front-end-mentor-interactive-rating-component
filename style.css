@@ -95,6 +95,10 @@ body {
   color: var(--orange);
 }
 
+.error-text {
+  margin-top: 5px;
+}
+
 .rating-thanks-bubble {
   background-color: var(--veryDarkBlue);
   margin-top: 20px;

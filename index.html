@@ -13,6 +13,7 @@
     />
 
     <title>Frontend Mentor | Interactive rating component</title>
+    <script src="./script.js" defer></script>
 
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -32,11 +33,16 @@
         <div class="rating">1</div>
         <div class="rating">2</div>
         <div class="rating">3</div>
-        <div class="rating active">4</div>
+        <div class="rating">4</div>
         <div class="rating">5</div>
       </div>
 
-      <button class="btn">Submit</button>
+      <div class="button-container">
+        <button class="btn" id="submit">Submit</button>
+        <div id="error-text" class="hide error-text text-align-center">
+          Error
+        </div>
+      </div>
       <!-- Rating state end -->
 
       <!-- Thank you state start -->
