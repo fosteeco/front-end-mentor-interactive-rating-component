@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+  padding: 25px;
+}
+
 :root {
   /* Primary */
   --orange: hsl(25, 97%, 53%);
@@ -82,7 +87,7 @@ body {
   outline: 0;
   border: 0;
   cursor: pointer;
-  padding: 10px 0;
+  padding: 15px 0;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 15px;
